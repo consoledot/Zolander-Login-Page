@@ -15,7 +15,7 @@ main {
 }
 .signup h1,
 .signup form {
-  margin: 30px 0 0 30px;
+  margin: 35px 0 0 30px;
 }
 .signup h1 {
   color: #ffa500;
@@ -59,9 +59,6 @@ input {
   padding-left: 40px;
   margin-top: 70px;
 }
-.signup input:first-of-type {
-  margin-top: 40px;
-}
 .login input[type="text"],
 .login input[type="password"] {
   border-bottom: 1px solid whitesmoke;
@@ -101,4 +98,26 @@ input[type="checkbox"] {
 }
 #login {
   margin: auto;
+}
+#error {
+  position: fixed;
+  background-color: rgb(221, 57, 57);
+  width: 100%;
+  padding: 10px 0;
+  color: #e59500;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  display: none;
+}
+#sucess {
+  background-color: green;
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  color: #e59500;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bolder;
+  display: none;
 }
